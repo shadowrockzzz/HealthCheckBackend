@@ -10,7 +10,7 @@ import com.servicehealthcheck.content.Data;
 @Controller
 public class HomeController {
 
-    @GetMapping("/home")
+    @GetMapping("/home1")
     @ResponseBody
     public Data getData(){
         Data data = new Data();
